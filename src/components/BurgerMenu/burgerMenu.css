@@ -1,0 +1,50 @@
+.margin-wrapper {
+  margin: 12px;
+
+}
+
+#menuToggle input {
+  width: 40px;
+  height: 32px;
+  top: -7px;
+  left: -5px;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+#menuToggle input:checked~div {
+  transform: none;
+}
+
+#menu {
+  width: 200px;
+  margin: 0;
+  height: 100px;
+  background-color: red;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu .nav-link {
+  color: #222;
+  background: #aaa;
+  height: 60px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ddd;
+}
+
+#menu .nav-link:nth-last-child(1) {
+  background: blue;
+  color: white
+}
+
+#menu .nav-link:hover {
+  color: #c14400;
+  border-bottom-color: #c14400;
+}
