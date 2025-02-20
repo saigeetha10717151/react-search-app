@@ -1,0 +1,40 @@
+.navigation-wrapper {
+  height: 40px;
+  background-color: #0b7dda;
+  justify-content: space-between;
+}
+
+.notification-icon {
+  margin: 10px;
+}
+
+.badge {
+  top: 12px;
+  right: 80px;
+  background-color: red;
+  z-index: 2;
+  font-size: 0px;
+  padding: 3px 3px;
+  border-radius: 50%;
+}
+
+/* Profile Menu CSS */
+
+.profile {
+  border-radius: 50px;
+  padding: 6px 6px;
+  background: #459de5;
+  margin: 5px;
+  float: right;
+}
+
+.profile-name {
+  color: white;
+  font-size: 11px;
+}
+
+/* Grid Menu CSS */
+.grid-icon {
+  font-size: 18px;
+  margin: 10px;
+}
